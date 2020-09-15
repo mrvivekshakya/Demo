@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid In CSS</title>
+	<style type="text/css">
+		.container{
+			display: grid;
+			grid-template-columns: 20% 80%;
+			border: 2px solid green;
+		}
+
+		.item{
+			background-color: aqua;
+			border: 1px solid red;
+			padding: 40px;
+		}
+
+		.container1{
+			display: grid;
+			grid-template-columns: auto;
+			border: 2px solid green;
+
+		}
+
+		.item1{
+			background-color: aqua;
+			border: 1px solid red;
+			padding: 40px;
+			height: 350px;
+		}
+
+		.container2{
+			display: grid;
+			grid-template-columns: 15% 70% 15%;
+			border: 2px solid green;
+			grid-gap: 20px;
+		}
+
+		.item2{
+			background-color: aqua;
+			border: 1px solid red;
+			padding: 40px;
+			height: 500px;
+		}
+
+		.container3{
+			display: grid;
+			grid-template-columns: 100%;
+
+			border: 2px solid green;
+		}
+
+		.item3{
+			background-color: aqua;
+			border: 1px solid red;
+			padding: 40px;
+			height: px;
+		}
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="item">1</div>
+		<div class="item">2</div>
+	</div>
+
+	<div class="container1">
+		<div class="item1">Slider</div>
+	</div>
+
+	<div class="container2">
+		<div class="item2">left</div>
+		<div class="item2">Center</div>
+		<div class="item2">right</div>
+
+	</div>
+
+	<div class="container3">
+		<div class="item3">Footer</div>
+	</div>
+
+</body>
+</html>
+
+<!--
+grid-template-rows
+grid-template-columns
+grid-gap
+grid-column-gap
+grid-rows-gap
+-->

@@ -1,0 +1,24 @@
+CSS: (Cascading Style Sheet)
+=> It is the Technology
+=> it define how the element is to be displayed
+=> It save your time
+=> it control layout of your web page
+
+CSS:
+1. Inline CSS (only use for one)
+=> It used within the opening tag/ it uses the style attribute
+
+2. Internal CSS (only one webpage ) 
+=> it used within the header(<head></head>)/ it uses the <style> tag and  selector(tagname, ., #, tagname.)
+
+3. External CSS (more than one webpage)
+=> file should be saved wih .css etension
+=> Head => <link rel="stylesheet" href="filemae.css">
+
+Sytex:
+
+{
+	property: value;
+	property1: value1;
+	property2: value2;
+}

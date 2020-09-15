@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form with CSS</title>
+
+	<style type="text/css">
+		*{
+			font-family: arial;
+		}
+		form{
+			background-color: yellow;
+			padding: 0px 30px 30px 30px;
+			border: 2px inset green;
+			border-radius: 8px;
+
+		}
+		h1{
+			text-align: center;
+		}
+		.container{
+			width: 100%;
+			height: auto;
+			max-width: 70%;
+		}
+
+		input[type=text]{
+			border: 0px solid gray;
+			border-bottom: 2px solid gray;
+			width: 100%;
+			margin: 5px 5px 5px 0px;
+			border-radius: 0px;
+			height: 20px;
+		}
+		input[type=password]{
+			border: 2px solid gray;
+			width: 100%;
+			margin: 5px 5px 5px 0px;
+			border-radius: 3px;
+			height: 20px;
+		}
+		input[type=email]{
+			border: 2px solid gray;
+			width: 100%;
+			margin: 5px 5px 5px 0px;
+			border-radius: 3px;
+			height: 20px;
+		}
+		input[type=submit]{
+			border: 3px solid black;
+			background-color: darkblue;
+			color: white;
+			width: 100%;
+			margin: 5px 5px 5px 0px;
+			border-radius: 3px;
+			height: 30px;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	
+		<div class="container">
+			<form>
+				<h1>Please Register Here</h1>
+				<label for="name">Name: </label>
+				<input type="text" name="name" id="name" placeholder="Enter Your Name" title="Please Enter your name" required="on">
+
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email" placeholder="Enter your Email" title="Please Enter Your Email Address" required="on">
+
+				<label for="pass">Password:</label>
+				<input type="password" name="password" id="pass" placeholder="Enter your Password" title="Please Enter Your Password" required="on">
+
+				<input type="submit" name="btn" value="Send" >
+
+			</form>
+		</div>
+	
+
+</body>
+</html>

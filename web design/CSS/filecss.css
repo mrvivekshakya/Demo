@@ -1,0 +1,8 @@
+/*This is CSS file*/ 
+
+#in{
+	/*This CSS is only for input tag*/
+	width: 200px;
+	border: 2px solid red;
+	height: 20px
+}
